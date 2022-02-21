@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "306880249693",
+    "project_id": "fashionapp-8af39",
+    "storage_bucket": "fashionapp-8af39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306880249693:android:d5fc39051b59d25cd3f2b4",
+        "android_client_info": {
+          "package_name": "com.fashionApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306880249693-mu5c6ubikcgd5kbefu1iva7chlo2m4gc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQItkSBwKsJ-qw3oOZhyjLB6I-Hm10zm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306880249693-mu5c6ubikcgd5kbefu1iva7chlo2m4gc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "306880249693-6uq1l0nti059klkn158abfldg42fajj5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fashionapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

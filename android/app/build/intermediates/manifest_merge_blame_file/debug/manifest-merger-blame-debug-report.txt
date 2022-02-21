@@ -1,0 +1,380 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fashionApp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:5:5-64
+13-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:6:6-71
+14-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:6:23-69
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:7:3-78
+15-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:7:20-75
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:8:3-79
+16-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:8:20-76
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.facebook.flipper:flipper:0.54.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\81e0d2333e41918d9c23c1025978be13\jetified-flipper-0.54.0\AndroidManifest.xml:16:5-76
+17-->[com.facebook.flipper:flipper:0.54.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\81e0d2333e41918d9c23c1025978be13\jetified-flipper-0.54.0\AndroidManifest.xml:16:22-73
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
+18-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+19-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
+20
+21    <queries>
+21-->[:react-native-image-crop-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-14:15
+22        <intent>
+22-->[:react-native-image-crop-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-13:18
+23            <action android:name="android.media.action.IMAGE_CAPTURE" />
+23-->[:react-native-image-crop-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-73
+23-->[:react-native-image-crop-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:21-70
+24        </intent>
+25    </queries> <!-- Required by older versions of Google Play services to create IID tokens -->
+26    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+26-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\29ce97954476e154028fc61c9852e044\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:5-82
+26-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\29ce97954476e154028fc61c9852e044\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:22-79
+27    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+27-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e4e3143224899a94e9723e46e40ab29a\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
+27-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e4e3143224899a94e9723e46e40ab29a\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
+28
+29    <application
+29-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:10:5-32:19
+30        android:name="com.fashionApp.MainApplication"
+30-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:11:7-38
+31        android:allowBackup="false"
+31-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:15:7-34
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\0bde647a6a3920000e588b07a83992d7\core-1.1.0\AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:13:7-41
+35        android:label="@string/app_name"
+35-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:12:7-39
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:14:7-52
+37        android:theme="@style/AppTheme"
+37-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:16:7-38
+38        android:usesCleartextTraffic="true" >
+38-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:17:7-42
+39        <activity
+39-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:19:7-30:18
+40            android:name="com.fashionApp.MainActivity"
+40-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:21:9-37
+41            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+41-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:23:9-86
+42            android:label="@string/app_name"
+42-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:22:9-41
+43            android:launchMode="singleTask"
+43-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:24:9-40
+44            android:screenOrientation="portrait"
+44-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:20:9-45
+45            android:windowSoftInputMode="adjustResize" >
+45-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:25:9-51
+46            <intent-filter>
+46-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:26:9-29:25
+47                <action android:name="android.intent.action.MAIN" />
+47-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:27:13-65
+47-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:27:21-62
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:28:13-73
+49-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:28:23-70
+50            </intent-filter>
+51        </activity>
+52        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+52-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:31:7-84
+52-->E:\React_Native_App\FashionApp_20_7_2021\fashionApp\android\app\src\main\AndroidManifest.xml:31:17-81
+53
+54        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+54-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-111
+54-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:18-108
+55        <service
+55-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-23:19
+56            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+56-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-95
+57            android:exported="false" >
+57-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-37
+58            <intent-filter>
+58-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-22:29
+59                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+59-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:17-78
+59-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:25-75
+60            </intent-filter>
+61        </service>
+62
+63        <receiver
+63-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-32:20
+64            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+64-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-96
+65            android:exported="true"
+65-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-36
+66            android:permission="com.google.android.c2dm.permission.SEND" >
+66-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-73
+67            <intent-filter>
+67-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-31:29
+68                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+68-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:17-81
+68-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:25-78
+69            </intent-filter>
+70        </receiver>
+71
+72        <meta-data
+72-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-36:36
+73            android:name="firebase_messaging_auto_init_enabled"
+73-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-64
+74            android:value="true" />
+74-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-33
+75        <meta-data
+75-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:9-39:32
+76            android:name="com.google.firebase.messaging.default_notification_channel_id"
+76-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-89
+77            android:value="" />
+77-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-29
+78        <meta-data
+78-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:9-42:47
+79            android:name="com.google.firebase.messaging.default_notification_color"
+79-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-84
+80            android:resource="@color/white" />
+80-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-44
+81
+82        <provider
+82-->[:react-native-image-crop-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-27:20
+83            android:name="androidx.core.content.FileProvider"
+83-->[:react-native-image-crop-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-62
+84            android:authorities="com.fashionApp.provider"
+84-->[:react-native-image-crop-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-60
+85            android:exported="false"
+85-->[:react-native-image-crop-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-37
+86            android:grantUriPermissions="true" >
+86-->[:react-native-image-crop-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-47
+87            <meta-data
+87-->[:react-native-image-crop-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-26:58
+88                android:name="android.support.FILE_PROVIDER_PATHS"
+88-->[:react-native-image-crop-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:17-67
+89                android:resource="@xml/provider_paths" />
+89-->[:react-native-image-crop-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:17-55
+90        </provider>
+91
+92        <activity
+92-->[:react-native-image-crop-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:9-31:72
+93            android:name="com.yalantis.ucrop.UCropActivity"
+93-->[:react-native-image-crop-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-60
+94            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+94-->[:react-native-image-crop-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-69
+95
+96        <provider
+96-->[:react-native-image-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-18:20
+97            android:name="com.imagepicker.FileProvider"
+97-->[:react-native-image-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-56
+98            android:authorities="com.fashionApp.provider"
+98-->[:react-native-image-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-60
+99            android:exported="false"
+99-->[:react-native-image-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+100            android:grantUriPermissions="true" >
+100-->[:react-native-image-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-47
+101            <meta-data
+101-->[:react-native-image-crop-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-26:58
+102                android:name="android.support.FILE_PROVIDER_PATHS"
+102-->[:react-native-image-crop-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:17-67
+103                android:resource="@xml/provider_paths" />
+103-->[:react-native-image-crop-picker] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:17-55
+104        </provider>
+105
+106        <receiver
+106-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\29ce97954476e154028fc61c9852e044\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:28:9-35:20
+107            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+107-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\29ce97954476e154028fc61c9852e044\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:29:13-78
+108            android:exported="true"
+108-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\29ce97954476e154028fc61c9852e044\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:30:13-36
+109            android:permission="com.google.android.c2dm.permission.SEND" >
+109-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\29ce97954476e154028fc61c9852e044\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:31:13-73
+110            <intent-filter>
+110-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-31:29
+111                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+111-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:17-81
+111-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:25-78
+112            </intent-filter>
+113        </receiver>
+114        <!--
+115             FirebaseMessagingService performs security checks at runtime,
+116             but set to not exported to explicitly avoid allowing another app to call it.
+117        -->
+118        <service
+118-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\29ce97954476e154028fc61c9852e044\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:41:9-48:19
+119            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+119-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\29ce97954476e154028fc61c9852e044\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:42:13-82
+120            android:directBootAware="true"
+120-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\29ce97954476e154028fc61c9852e044\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:43:13-43
+121            android:exported="false" >
+121-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\29ce97954476e154028fc61c9852e044\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:44:13-37
+122            <intent-filter android:priority="-500" >
+122-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-22:29
+123                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+123-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:17-78
+123-->[:react-native-firebase_messaging] E:\React_Native_App\FashionApp_20_7_2021\fashionApp\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:25-75
+124            </intent-filter>
+125        </service>
+126        <service
+126-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\29ce97954476e154028fc61c9852e044\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:49:9-55:19
+127            android:name="com.google.firebase.components.ComponentDiscoveryService"
+127-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\29ce97954476e154028fc61c9852e044\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:50:13-84
+128            android:directBootAware="true"
+128-->[com.google.firebase:firebase-common:20.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\cc62e5abaab65ddb5aeacf68bd90a198\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+129            android:exported="false" >
+129-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\29ce97954476e154028fc61c9852e044\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:51:13-37
+130            <meta-data
+130-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\29ce97954476e154028fc61c9852e044\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
+131                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+131-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\29ce97954476e154028fc61c9852e044\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\29ce97954476e154028fc61c9852e044\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
+133            <meta-data
+133-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\6a85d1b54b4ec4dfdf3418ea947c68c7\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+134                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+134-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\6a85d1b54b4ec4dfdf3418ea947c68c7\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\6a85d1b54b4ec4dfdf3418ea947c68c7\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+136            <meta-data
+136-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\dd373cb145d7aed19f8e8b34599eedcc\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+137                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+137-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\dd373cb145d7aed19f8e8b34599eedcc\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\dd373cb145d7aed19f8e8b34599eedcc\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+139            <meta-data
+139-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\6db6e6fbc5455cfa6cd22ad2564f26cd\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+140                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+140-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\6db6e6fbc5455cfa6cd22ad2564f26cd\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\6db6e6fbc5455cfa6cd22ad2564f26cd\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+142        </service>
+143        <service
+143-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\9c19b759ebd71ec755f8d00ca7f9344e\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+144            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+144-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\9c19b759ebd71ec755f8d00ca7f9344e\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+145            android:exported="false" >
+145-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\9c19b759ebd71ec755f8d00ca7f9344e\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+146            <meta-data
+146-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\9c19b759ebd71ec755f8d00ca7f9344e\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+147                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+147-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\9c19b759ebd71ec755f8d00ca7f9344e\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+148                android:value="cct" />
+148-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\9c19b759ebd71ec755f8d00ca7f9344e\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+149        </service>
+150
+151        <provider
+151-->[com.google.firebase:firebase-common:20.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\cc62e5abaab65ddb5aeacf68bd90a198\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+152            android:name="com.google.firebase.provider.FirebaseInitProvider"
+152-->[com.google.firebase:firebase-common:20.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\cc62e5abaab65ddb5aeacf68bd90a198\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+153            android:authorities="com.fashionApp.firebaseinitprovider"
+153-->[com.google.firebase:firebase-common:20.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\cc62e5abaab65ddb5aeacf68bd90a198\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+154            android:directBootAware="true"
+154-->[com.google.firebase:firebase-common:20.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\cc62e5abaab65ddb5aeacf68bd90a198\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+155            android:exported="false"
+155-->[com.google.firebase:firebase-common:20.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\cc62e5abaab65ddb5aeacf68bd90a198\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+156            android:initOrder="100" />
+156-->[com.google.firebase:firebase-common:20.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\cc62e5abaab65ddb5aeacf68bd90a198\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+157
+158        <service
+158-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e004cf255a00a57cf9544a071c928723\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+159            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+159-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e004cf255a00a57cf9544a071c928723\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+160            android:exported="false"
+160-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e004cf255a00a57cf9544a071c928723\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+161            android:permission="android.permission.BIND_JOB_SERVICE" >
+161-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e004cf255a00a57cf9544a071c928723\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+162        </service>
+163
+164        <receiver
+164-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e004cf255a00a57cf9544a071c928723\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+165            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+165-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e004cf255a00a57cf9544a071c928723\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+166            android:exported="false" />
+166-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e004cf255a00a57cf9544a071c928723\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+167
+168        <activity
+168-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b69102718f837f2b86e3d505003d22c1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+169            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+169-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b69102718f837f2b86e3d505003d22c1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+170            android:excludeFromRecents="true"
+170-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b69102718f837f2b86e3d505003d22c1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+171            android:exported="false"
+171-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b69102718f837f2b86e3d505003d22c1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+172            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+172-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b69102718f837f2b86e3d505003d22c1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+173        <!--
+174            Service handling Google Sign-In user revocation. For apps that do not integrate with
+175            Google Sign-In, this service will never be started.
+176        -->
+177        <service
+177-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b69102718f837f2b86e3d505003d22c1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+178            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+178-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b69102718f837f2b86e3d505003d22c1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+179            android:exported="true"
+179-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b69102718f837f2b86e3d505003d22c1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+180            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+180-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b69102718f837f2b86e3d505003d22c1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+181            android:visibleToInstantApps="true" />
+181-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\b69102718f837f2b86e3d505003d22c1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+182
+183        <activity
+183-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\79bfad54593477a052776c0ada50c2a4\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+184            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+184-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\79bfad54593477a052776c0ada50c2a4\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+185            android:exported="false"
+185-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\79bfad54593477a052776c0ada50c2a4\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+186            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+186-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\79bfad54593477a052776c0ada50c2a4\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+187
+188        <receiver
+188-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e4e3143224899a94e9723e46e40ab29a\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+189            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+189-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e4e3143224899a94e9723e46e40ab29a\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+190            android:enabled="true"
+190-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e4e3143224899a94e9723e46e40ab29a\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+191            android:exported="false" >
+191-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e4e3143224899a94e9723e46e40ab29a\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+192        </receiver>
+193
+194        <service
+194-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e4e3143224899a94e9723e46e40ab29a\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+195            android:name="com.google.android.gms.measurement.AppMeasurementService"
+195-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e4e3143224899a94e9723e46e40ab29a\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+196            android:enabled="true"
+196-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e4e3143224899a94e9723e46e40ab29a\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+197            android:exported="false" />
+197-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e4e3143224899a94e9723e46e40ab29a\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+198        <service
+198-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e4e3143224899a94e9723e46e40ab29a\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+199            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+199-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e4e3143224899a94e9723e46e40ab29a\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+200            android:enabled="true"
+200-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e4e3143224899a94e9723e46e40ab29a\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+201            android:exported="false"
+201-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e4e3143224899a94e9723e46e40ab29a\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+202            android:permission="android.permission.BIND_JOB_SERVICE" />
+202-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e4e3143224899a94e9723e46e40ab29a\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+203
+204        <meta-data
+204-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\4b94ef120f5c72c65a56a7d62e2fcc49\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+205            android:name="com.google.android.gms.version"
+205-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\4b94ef120f5c72c65a56a7d62e2fcc49\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+206            android:value="@integer/google_play_services_version" />
+206-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\4b94ef120f5c72c65a56a7d62e2fcc49\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+207    </application>
+208
+209</manifest>
